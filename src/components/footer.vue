@@ -57,15 +57,6 @@
         </div>
       </div>
     </div>
-    <div class="copyrightbox container-fluid">
-      <div class="row-fluid">
-        <div class="col-md-12">
-          <p class="copyright text-center">
-            &copy;&nbsp;2016普瑞赛思生物医药科技（北京）有限公司 京ICP备16026270号
-          </p>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -89,5 +80,97 @@ module.exports = {
 </script>
 
 <style scoped lang="scss">
-.footer_wrapper {}
+.footer_wrapper {
+  /*footer*/
+  .footer {
+    margin-top: 30px;
+    background-color: #434343;
+  }
+
+  .footer-nav ul {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .footer .footer-title,
+  .footer .footer-title a {
+    color: #7d7d7d;
+  }
+
+  .footer nav,
+  .footer section {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    /*height: 240px;*/
+    font-family: "微软雅黑";
+  }
+  .footer nav a {
+    font-size: 14px "微软雅黑";
+    color: #fff;
+  }
+  .footer .footer-nav ul {
+    margin-right: 40px;
+  }
+
+  .footer .footer-nav li {
+    height: 33px;
+  }
+
+  .footer .qr-code {
+    margin-right: 117px;
+  }
+
+  .footer .qr-code p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .footer .sns {
+    margin-right: 45px;
+  }
+
+  .footer .footer-nav,
+  .footer .qr-code,
+  .footer .sns,
+  .footer .service-tel {
+    padding-top: 33px;
+  }
+
+  .footer .qr-code .qr-code-inner {
+    width: 100px;
+    height: 100px;
+    background-image: url("../assets/images/qrcode.jpg");
+    background-size: 100px 100px;
+    margin-bottom: 15px;
+  }
+
+  .footer .sns-icons .weibo {
+    width: 42px;
+    height: 37px;
+    display: inline-block;
+    background: url("../assets/images/qrcode.jpg");
+    cursor: pointer;
+    margin: 3px 6px 7px 0;
+  }
+
+  .footer .service-tel .footer-title,
+  .footer .sns .footer-title {
+    margin-bottom: 8px;
+  }
+
+  .footer .service-tel .tel-number {
+    font-size: 24px;
+  }
+  .copyrightbox {
+    width: 100%;
+    background-color: #313131;
+  }
+  .copyrightbox .copyright {
+    height: 40px;
+    width: 100%;
+    line-height: 50px;
+    background-color: #313131;
+    color: #535353;
+  }
+}
 </style>
