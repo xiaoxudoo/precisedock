@@ -27,6 +27,7 @@ module.exports = {
     @import './common/sass/base.scss';
     html,body{
         height: auto;  // set height on the main element in the body
+        background: #fff;
     }
     /*这个指令对应的元素当Vue实例化完成前都不显示*/
     [v-cloak] {
