@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8"/>
+  <!-- 这个属性主要是设置浏览器优先使用什么模式来渲染页面的-->
+  <!-- #下面的meta标签告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。  -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <!--移动设备都是这Viewport里面打开，width=device-width表示打开页面默认和设备一致，initial-scale=1表示页面不进行缩放   -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <meta name="description" content="普瑞赛思生物医药科技（北京）有限公司是一家专注于计算机辅助药物设计（CADD）的专业服务商。我们致力于提供最专业的计算药物解决方案，主要包括：虚拟筛选、分子对接、分子动力学模拟、化合物库构建。" />
+  <meta name="keywords" content="CADD,virtual screen,molecular dynamics,molecular docking,protein docking,reverse docking,虚拟筛选,分子动力学模拟,分子对接,蛋白质对接,计算机辅助药物,反向虚拟筛选,普瑞赛思,普瑞赛思生物医药,普瑞赛思生物医药科技,普瑞赛思生物医药科技有限公司,普瑞赛思生物医药科技（北京）有限公司" />
+  <link rel="shortcut icon" href="img/precise.ico">
+  <!-- seo搜索优化 -->
+  <title>普瑞塞思生物技术</title>
+  <!-- Bootstrap -->
+  <!--<link href="css/bootstrap.min.css" rel="stylesheet"/>-->
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <!-- 引入基础样式 -->
+  <!--低版本浏览器如果支持HTML5需要添加以下js-->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss .com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- 导航条  默认高度50px, 反色（黑色） 固定在顶部 -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <!--当浏览器宽度变窄的时候会显示这个Button按钮，并且会把data-target中的div中ul收缩导航到Button下方-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <!--定义小按钮的样式-->
+          <span class="sr-only">Toggle navigation</span>
+          <!-- 页面变窄时 ， 按钮的3条横线 -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--Logo位置-->
+        <a href="#" class="navbar-brand precise-title">
+            <img class="logoImg" src="img/logo.png" width="150" height="50">
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <!--导航条内容-->
+        </ul>
+        <!--搜索表单-->
+        <form class="navbar-form navbar-right" role="search" method="get" action="http://www.baidu.com/s" target="_blank">
+          <div class="form-group">
+            <input type="text" class="form-control" name="wd" placeholder="Search..." onclick="document.forms[0].wd.value=''"/>
+          </div>
+          <button type="submit" class="btn btn-primary" >搜索</button>
+        </form>
+       
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!--栅格系统， 全局CSS样式-栅格系统  -->
+  <!--栅格系统放在container容器中-->
+  <div class="body container-fluid">
+    <!--添加一行占用12列，添加img-->
+    <div class="row-fluid">
+        <!--javascript插件，添加carousel轮播图-->
+      <div id="carousel-example-generic" class="carousel slide others" data-ride="carousel" >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/sliders/md.jpg" />
+            <div class="carousel-caption">
+              <h2></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="centered col-md-6 col-md-offset-3">
+        <h2 class="blue">
+          分子动力学模拟
+        </h2>
+        <p class="left">
+          &nbsp;&nbsp;&nbsp;&nbsp;分子动力学（Molecular Dynamics, MD）模拟是一套分子模拟方法，该方法主要是依靠牛顿力学来模拟分子体系的不用状态构成的系统中抽取样本，从而计算体系的构型积分，并以构型积分的结果为基础进一步计算体系的热力学量和其他宏观性质。<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;分子动力学模拟能够有效运用于：<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;1、大分子与小分子相互作用，如：预测药物分子与蛋白/DNA的相互作用，材料吸附等;<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;2、大分子之间的相互作用（蛋白-蛋白相互作用）;<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;3、分子（药物、蛋白、材料分子）三维结构的优化，如优化同源模建的结构;<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;4、结构与功能、性质的关系。
+        </p>
+        <h2 class="blue">
+          服务内容
+        </h2>
+        <p>
+          <img alt="140x140" src="img/contents/md.jpg" class="img-rounded" />
+        </p>
+        <h2 class="blue">
+          服务流程
+        </h2> 
+      </div>
+      <div class="centered">  
+        <p>
+          <img alt="140x140" src="img/contents/pro.jpg" class="img-rounded" />
+        </p>
+      </div>
+      <div class="centered col-md-6 col-md-offset-3"> 
+        <h2 class="blue">
+          项目周期
+        </h2> 
+        <p class="centered">根据项目不同，需要时间大概在20-50天。</p>
+        <h2 class="blue">
+          服务价格
+        </h2>
+        <p class="centered">&nbsp;&nbsp;&nbsp;&nbsp;需要先对项目进行评估，如果具有可实施性，价格范围2w-5w。</p>
+      </div>  
+    </div>
+      
+  </div>
+  <!-- footer -->
+  <div class="footer container-fluid">
+    <div class="row-fluid">
+      <nav class="footer-nav flag col-md-3">
+      </nav>
+      <nav class="footer-nav col-md-3">        
+        <ul>
+            <li class="footer-title">应用领域</li>
+            <li><a>科研服务</a></li>
+            <li><a>食品保健</a></li>
+            <li><a>农业&环境</a></li>
+        </ul>
+        <ul>
+            <li class="footer-title">内部链接</li>
+            <li><a href="http://xiaoxudoo.cn/jsmol/jsmol.htm">JSmol视图</a></li>
+        </ul>
+      </nav>
+      <div class="col-md-2">
+        <section class="qr-code">
+            <div class="qr-code-inner"></div>
+            <p>网页手机端</p>
+        </section>
+      </div>
+      <div class="col-md-2">
+        <section class="sns">
+            <p class="footer-title">关注我们</p>
+            <p class="sns-icons">
+                <a href="#" target="_blank" ><span class="weibo"></span></a>
+            </p>
+            <p class="footer-title">客户意见反馈邮箱</p>
+            <p><a style="color:#fff" href="mailto:info@precisedock.com">info@precisedock.com</a></p>
+        </section>
+      </div>
+      <div class="col-md-2">  
+        <section class="service-tel">
+            <p class="footer-title">客服热线</p>
+            <p class="tel-number">
+                4000181609
+            </p>
+            <p class="footer-title">工作时间</p>
+            <p>8:30 ~ 18:00</p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="copyrightbox container-fluid">
+    <div class="row-fluid">
+      <div class="col-md-12">
+        <p class="copyright text-center">
+          &copy;&nbsp;2016普瑞赛思生物医药科技（北京）有限公司 京ICP备16026270号
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap核心js依赖于jQuery,所以要先引用jQuery-->
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/index.js"></script>
+  <!-- 自己的js -->
+</body>
+</html>

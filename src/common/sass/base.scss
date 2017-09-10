@@ -1,0 +1,70 @@
+@import "util.scss";
+html {
+  color: #000;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html * {
+  outline: none;
+  @include trip-padding-margin;
+  border:0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,body {
+  height:100%;
+  font-family: 'MicroSoft Yahei','Georgia';
+  color:rgba(0,0,0,.6);
+}
+body{
+  width:100%;
+  background-color: #efefef;
+  overflow-x:hidden;
+}
+input,select,textarea {
+  font-size: 100%;
+}
+
+/* 去掉各 Table  cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 去掉列表前的标识, li 会继承 */
+ol,
+ul {
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+/* 统一上标和下标 */
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* 默认不显示下划线*/
+ins,a,a:active,a:hover,a:visited,a:-webkit-any-link {
+  text-decoration: none;
+  color:rgba(0,0,0,.6);
+}
+em {
+    font-style: normal;
+}
+
+
+
+
+
+

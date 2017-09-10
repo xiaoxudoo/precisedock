@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content=yes name=apple-mobile-web-app-capable><meta content=yes name=apple-touch-fullscreen><meta content="telephone=no,email=no" name=format-detection><title>Knights Developer</title><script>// 给html根节点加上data-ext属性标识是否可以使用webp
+            function addRootTag(extname) {
+                document.documentElement.setAttribute('data-ext', extname);
+            }
+
+            // 判断是否有webps=A这个cookie
+            if (!/(^|;\s?)webps=A/.test(document.cookie)) {
+                var elem = document.createElement('canvas');
+                if (!!(elem.getContext && elem.getContext('2d'))) {
+                    if( elem.toDataURL('image/webp').indexOf('data:image/webp') === 0 ) {
+                        // html根节点添加属性，并且埋入cookie
+                        addRootTag('webp');
+                        document.cookie = "webps=A; max-age=31536000; domain=mi.com";
+                    } else {
+                        addRootTag('jpeg');
+                    }
+                } else {
+                    var image = new Image();
+
+                    // 图片加载完成时候的操作
+                    image.onload = function() {
+
+                        // 图片加载成功且宽度为1，那么就代表支持webp了，因为这张base64图是webp格式。如果不支持会触发image.error方法
+                        if (image.width == 1) {
+
+                            addRootTag('webp');
+                            document.cookie = "webps=A; max-age=31536000; domain=mi.com";
+                        } else {
+                            addRootTag('jpeg');
+                        }
+                    };
+
+                    // 一张支持alpha透明度的webp的图片，使用base64编码
+                    image.src = 'data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==';
+                }
+            } else {
+                addRootTag('webp');
+            }</script><link href=./static/css/app.80191ad7b48f6c006660792c8fb4ce6b.css rel=stylesheet></head><body><!--[if lt IE 9]>
+        <p class="browsehappy">
+        你正在使用一个<strong>过时</strong>的浏览器。请<a class="link" href="http://browsehappy.com" target="_blank">升级您的浏览器</a>。</p>
+        </p>
+        <![endif]--><div id=app></div><script type=text/javascript src=./static/js/manifest.39d4b442fcb86fe4d34d.js></script><script type=text/javascript src=./static/js/vendor.eedfc3a26ef5c5dbe8ed.js></script><script type=text/javascript src=./static/js/app.ffaa02c7438e71982ac5.js></script></body></html>

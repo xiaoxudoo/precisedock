@@ -1,0 +1,186 @@
+{
+    "projects" : {
+        "code": "000000",
+        "errMsg": "success",
+        "result": [
+            {
+                "gameName": "张三丰",
+                "iconUri": "/static/1.jpg",
+                "indentification": "100000",
+                "versionList": [
+                    {
+                        "appBasicInfoId": 1,
+                        "versionName": "13",
+                        "status": "100000",
+                        "statusName": "Content in review",
+                        "statusType": "1"
+                    },
+                    {
+                        "appBasicInfoId": 2,
+                        "versionName": "12",
+                        "status": "300000",
+                        "statusName": "Content in review",
+                        "statusType": "1"
+                    }
+                ]
+            },
+            {
+                "gameName": "权利的游戏",
+                "iconUri": "/static/icon.png",
+                "indentification": "200000",
+                "versionList": [
+                    {
+                        "appBasicInfoId": 3,
+                        "versionName": "16",
+                        "status": "100000",
+                        "statusName": "Content in review",
+                        "statusType": "1"
+                    }
+                ]
+            },
+            {
+                "gameName": "王者荣耀",
+                "iconUri": "/static/icon.png",
+                "indentification": "100000",
+                "versionList": []
+            },
+            {
+                "gameName": null,
+                "iconUri": null,
+                "indentification": null,
+                "versionList": null
+            }
+        ] 
+    },
+    "projects_null": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": []
+    },
+    "accountInfo": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": {
+            "displayName": "xiaoxudoo",
+            "identification": 1
+        }
+    },
+    "appInfo_one": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": [
+            {
+                "appBasicInfoId": "1",
+                "iconUri": "/static/icon.png",
+                "versionName": "v0.0.1",
+                "status": "100000",
+                "statusName": "Removed",
+                "statusType": "1",
+                "packageName": "com.game.mi",
+                "projectId": "78904",
+                "lastModifiedTime": "1500889186683",
+                "miGameAppId": "12321321",
+                "miGameAppKey": "1232132133123131",
+                "miGameAppSecret": "32131212313213232"
+            },
+            {
+                "appBasicInfoId": "2",
+                "iconUri": "/static/1.jpg",
+                "versionName": "v0.0.2",
+                "status": "300000",
+                "statusName": "Content in review",
+                "statusType": "1",
+                "packageName": "com.game.mi.xiaoxudoooooooooooooooooooo",
+                "projectId": "41d43324c-46dd-b0f5-1f5939c75d9a",
+                "lastModifiedTime": "1500889186683",
+                "miGameAppId": "",
+                "miGameAppKey": "",
+                "miGameAppSecret": ""
+            }
+        ]
+    },
+    "appInfo_two": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": [
+            {
+                "appBasicInfoId": "3",
+                "iconUri": "/static/icon.png",
+                "versionName": "v0.0.3",
+                "status": "Approved",
+                "statusName": "Approved",
+                "statusType": "1",
+                "packageName": "com.game.mi.xiaoxudoooooooooooooooooooo",
+                "projectId": "41d43324c-46dd-b0f5-1f5939c75d9a",
+                "lastModifiedTime": "1500889186683",
+                "miGameAppId": "2882303761517580191",
+                "miGameAppKey": "5401758029190",
+                "miGameAppSecret": "HMom/586N1hvdNlaGuDwLw=="
+            }
+        ]
+    },
+    "manualRecord": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": [
+            {
+                "cdate": "1500889186683",
+                "userName": "xiaoxudooxiaoxudooxiaoxudooxiaoxudooxiaoxudooxiaoxudooxiaoxudoo",
+                "statusName": "已下架", 
+                "note": "就是想下架了<br>nihao就是想下架了<br>nihao就是想下架了<br>nihao就是想下架了<br>nihao就是想下架了<br>nihao就是想下架了<br>nihao"
+            },
+            {
+                "cdate": "1500889186683",
+                "userName": "xiaoxudoo",
+                "statusName": "待审核", 
+                "note": "123"
+            }
+        ]
+    },
+    "unityUrl": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": [
+            "https://www.baidu.com",
+            "https://www.baidu.com"
+        ]
+    },
+    "appAllInfo": {
+        "code": "000000",
+        "errMsg": "success",
+        "result": {
+            "id": 19,
+            "name": "11测",
+            "developerName": "11的",
+            "gameIntroduction": "我是测试数据\n你呢 \n\n是啥不 试试                   的手机号",
+            "email": "uydui@dkj.cn",
+            "app_id": "a0f668f2aa4640e18c965687e9725551",
+            "status": "100000",
+            "statusType": 3,
+            "updateInformation": "我是空格 两个  三个   四个    五个     六个                     换行\n航航\n商定",
+            "identification": "100000",
+            "adapterDevice_mobile_phone": true,
+            "adapterDevice_table_pc": true,
+            "adapterDevice_mobile_phone_list": [
+                
+            ],
+            "adapterDevice_table_pc_list": [
+                {
+                    "url": "https://unity.test.mgp.mi.com/service/v1/images/955efb3c-881e-4502-9677-72622d36d40f.jpg",
+                    "sequence": 1,
+                    "pictureInfo": 0
+                },
+                {
+                    "url": "https://unity.test.mgp.mi.com/service/v1/images/2ff84293-4b3b-49d0-8a58-7f9555ee2fbe.jpg",
+                    "sequence": 2,
+                    "pictureInfo": 0
+                },
+                {
+                    "url": "https://unity.test.mgp.mi.com/service/v1/images/487c9649-96e2-4583-a3d1-1ed1991a3b6e.jpg",
+                    "sequence": 3,
+                    "pictureInfo": 0
+                }
+            ]
+        }
+    }
+}
