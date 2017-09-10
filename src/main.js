@@ -4,7 +4,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './app'
 
-require('./assets/css/common.css')
+// require('./assets/css/common.css')
 // register filters globally
 var filters = require('./filter')
 

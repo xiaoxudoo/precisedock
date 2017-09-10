@@ -1,24 +1,24 @@
 <template>
-    <p>virtail screen</p>
+    <div class="inner_router">
+        virtual screen
+    </div>
 </template>
 
 <script>
 module.exports = {
-    data:function () {
+    data: function() {
         return {
         }
     },
-    components: {
-    },
-    created:function () {
+    created: function() {
 
     },
-    directives: {
-        
-    }
+    components: {
+    },
 };
 </script>
 
 <style lang="scss" scoped>
-    
+.inner_router {
+}
 </style>

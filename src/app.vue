@@ -33,4 +33,27 @@ module.exports = {
     [v-cloak] {
         display: none;
     }
+    .centered{
+        text-align: center;
+    }
+    .left{
+        text-align: left;
+    }
+    p.left,
+    p.centered{
+        margin-bottom: 20px;
+        font: 18px "微软雅黑";
+    }
+    p.float{
+        font: 18px "微软雅黑";
+    }
+    .question{
+        margin-top:20px;
+        font-weight: bold!important;
+        font: 18px "微软雅黑";
+    }
+    .answer{
+        font-weight: 700;
+        font: 18px "微软雅黑";
+    }
 </style>
