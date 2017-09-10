@@ -1,0 +1,326 @@
+li{
+	margin:0;
+	padding: 0;
+	list-style-type:none
+}
+ul.nav > li > a{
+	font-size: 18px;
+}
+.topborder {
+    border-top: 2px solid #93c9ed;
+}
+.nav .dropdown-menu{
+    background: #93c9ed;
+    min-width: 110px;
+}
+.nav .dropdown-menu>li>a {
+    padding: 5px 20px;
+    font-weight: 700;
+    font: 16px "微软雅黑";
+    line-height: 1.42857143;
+    color: #333;
+}
+.navbar-collapse .contact{
+	margin-top: 5px;
+}
+.navbar-collapse .contact .tel{
+	font-size:20px; 
+	color:#666;
+	vertical-align: middle;
+}
+.precise-title {
+    height: 50px;
+    padding: 0px;
+}
+.body{
+	margin-top: 50px;
+	padding:0px;
+}
+.body .carousel.slide.others{
+    margin: 0 auto;
+    width: 1000px;
+}
+.body .carousel.slide.others img{
+    border-radius: 10px;
+}
+
+.body .brief{
+    margin:auto 100px;
+}
+.body .desc{
+	margin: 30px 0px 30px;
+}
+
+.thumbnail p{
+    font-size: 18px;
+}
+
+.centered{
+	text-align: center;
+}
+.left{
+    text-align: left;
+}
+p.left,
+p.centered{
+    margin-bottom: 20px;
+    font: 18px "微软雅黑";
+}
+p.float{
+    font: 18px "微软雅黑";
+}
+.blue{ color: skyblue; }
+.question{
+    margin-top:20px;
+    font-weight: bold!important;
+    font: 18px "微软雅黑";
+}
+.answer{
+    font-weight: 700;
+    font: 18px "微软雅黑";
+}
+.vs,.md,.dock,.model,.pharm,.valid{
+	/*width: 100%;*/
+    order:1px solid #eee;
+    border-radius: 5px;
+}
+
+/*footer*/
+
+.footer {
+    margin-top:30px;
+    background-color: #434343;
+}
+
+.footer-nav ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer .footer-title,
+.footer .footer-title a {
+    color: #7d7d7d;
+}
+
+.footer nav,
+.footer section {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    /*height: 240px;*/
+    font-family: "微软雅黑";
+}
+.footer nav a {
+    font-size: 14px "微软雅黑";
+    color: #fff;
+}
+.footer .footer-nav ul {
+    margin-right: 40px;
+}
+
+.footer .footer-nav li {
+    height: 33px;
+}
+
+.footer .qr-code {
+    margin-right: 117px;
+}
+
+.footer .qr-code p {
+    font-size: 12px;
+    text-align: center;
+}
+.footer .sns{
+	margin-right: 45px;
+}
+
+.footer .footer-nav,
+.footer .qr-code,
+.footer .sns,
+.footer .service-tel {
+    padding-top: 33px;
+}
+
+.footer .qr-code .qr-code-inner {
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/qrcode.png");
+    background-size: 100px 100px;
+    margin-bottom: 15px;
+}
+
+.footer .sns-icons .weibo {
+    width: 42px;
+    height: 37px;
+    display: inline-block;
+    background: url("../img/weibo.png");
+    cursor: pointer;
+    margin: 3px 6px 7px 0;
+}
+
+.footer .service-tel .footer-title,
+.footer .sns .footer-title {
+    margin-bottom: 8px;
+}
+
+.footer .service-tel .tel-number {
+    font-size: 24px;
+}
+.copyrightbox{
+	width: 100%;
+	background-color: #313131;
+}
+.copyrightbox .copyright {
+    height: 40px;
+    width: 100%;
+    line-height: 50px;
+    background-color: #313131;
+    color: #535353;
+}
+
+/*cooperation*/
+.cooperation{
+	border:none;
+}
+.cooperation .caption {
+    position: relative;
+}
+.cooperation .caption h3{
+	font: 24px "微软雅黑",Arial;
+}
+.cooperation .caption ul.items li {
+    position: relative;
+    width: 240px;
+    height: 100px;
+    padding: 0px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-transition: all .5s ease-in-out 0s;
+    -moz-transition: all .5s ease-in-out 0s;
+    -ms-transition: all .5s ease-in-out 0s;
+    -o-transition: all .5s ease-in-out 0s;
+    transition: all .5s ease-in-out 0s;
+}
+.cooperation .caption ul.items li.bg.one {
+    position: absolute;
+    background: #eee;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    /*display: none;*/
+}
+.cooperation .caption ul.items li.r {
+    border-right: 1px dotted #ddd;
+}
+.cooperation .caption ul.items li.tsinghua {
+    background: url(../img/coorpration/cop.png) no-repeat 0px 0px;   
+}
+.cooperation .caption ul.items li.tsinghua:hover{
+	background: url(../img/coorpration/cop.png) no-repeat 0px -100px;   
+}
+.cooperation .caption ul.items li.peking {
+    background: url(../img/coorpration/cop.png) no-repeat -240px 0px;   
+}
+.cooperation .caption ul.items li.peking:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -240px -100px;   
+}
+.cooperation .caption ul.items li.cas {
+    background: url(../img/coorpration/cop.png) no-repeat -480px 0px;   
+}
+.cooperation .caption ul.items li.cas:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -480px -100px;   
+}
+.cooperation .caption ul.items li.bnu {
+    background: url(../img/coorpration/cop.png) no-repeat -720px 0px;   
+}
+.cooperation .caption ul.items li.bnu:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -720px -100px;   
+}
+.cooperation .caption ul.items li.cau {
+    background: url(../img/coorpration/cop.png) no-repeat -960px 0px;   
+}
+.cooperation .caption ul.items li.cau:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -960px -100px;   
+}
+.cooperation .caption ul.items li.drug {
+    background: url(../img/coorpration/cop.png) no-repeat -1200px 3px;   
+}
+.cooperation .caption ul.items li.drug:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -1200px -97px;   
+}
+.cooperation .caption ul.items li.cmu {
+    background: url(../img/coorpration/cop.png) no-repeat -1440px 3px;   
+}
+.cooperation .caption ul.items li.cmu:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -1440px -97px;   
+}
+.cooperation .caption ul.items li.police {
+    background: url(../img/coorpration/cop.png) no-repeat -1680px 0px;   
+}
+.cooperation .caption ul.items li.police:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -1680px -100px;   
+}
+.cooperation .caption ul.items li.army {
+    background: url(../img/coorpration/cop.png) no-repeat -1922px 0px;   
+}
+.cooperation .caption ul.items li.army:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -1922px -100px;   
+}
+.cooperation .caption ul.items li._301 {
+    background: url(../img/coorpration/cop.png) no-repeat -2160px 5px;   
+}
+.cooperation .caption ul.items li._301:hover {
+    background: url(../img/coorpration/cop.png) no-repeat -2160px -95px;    
+}
+
+/*cooperation.html*/
+.cooperation .caption ul.items li.tsinghuas {
+    background: url(../img/coorpration/cop.png) no-repeat 0px -100px;   
+}
+.cooperation .caption ul.items li.pekings {
+    background: url(../img/coorpration/cop.png) no-repeat -240px -100px;   
+}
+.cooperation .caption ul.items li.cass {
+    background: url(../img/coorpration/cop.png) no-repeat -480px -100px;   
+}
+.cooperation .caption ul.items li.bnus {
+    background: url(../img/coorpration/cop.png) no-repeat -720px -100px;   
+}
+.cooperation .caption ul.items li.caus {
+    background: url(../img/coorpration/cop.png) no-repeat -960px -100px;   
+}
+.cooperation .caption ul.items li.drugs {
+    background: url(../img/coorpration/cop.png) no-repeat -1200px -97px;   
+}
+.cooperation .caption ul.items li.cmus {
+    background: url(../img/coorpration/cop.png) no-repeat -1440px -97px;   
+}
+.cooperation .caption ul.items li.polices {
+    background: url(../img/coorpration/cop.png) no-repeat -1680px -100px;   
+}
+.cooperation .caption ul.items li.armys {
+    background: url(../img/coorpration/cop.png) no-repeat -1922px -100px;   
+}
+.cooperation .caption ul.items li._301s {
+    background: url(../img/coorpration/cop.png) no-repeat -2160px -95px;   
+}
+.cooperation .caption ul.items li.shjiaotong {
+    background: url(../img/coorpration/5xiao.jpg) no-repeat 0px 0px;   
+}
+.cooperation .caption ul.items li.ecnu {
+    background: url(../img/coorpration/5xiao.jpg) no-repeat -240px 0px;   
+}
+.cooperation .caption ul.items li.zhejiang {
+    background: url(../img/coorpration/5xiao.jpg) no-repeat -480px 0px;   
+}
+.cooperation .caption ul.items li.ecst {
+    background: url(../img/coorpration/5xiao.jpg) no-repeat -720px 0px;   
+}
+.cooperation .caption ul.items li.bcm {
+    background: url(../img/coorpration/5xiao.jpg) no-repeat -960px 0px;   
+}

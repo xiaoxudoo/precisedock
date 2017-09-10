@@ -7,7 +7,7 @@ module.exports = function(Vue) {
         bind: function () {
             var _hmt = _hmt || [];
             var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.lib?089eb45a6fecae070944659845cf0377";
+            hm.src = "//hm.baidu.com/hm.js?70dd77fbe247aa71fd61c99fd02b6e34";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         }

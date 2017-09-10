@@ -25,7 +25,6 @@ module.exports = merge(baseWebpackConfig, {
       '__DEV__': JSON.stringify(JSON.parse('true'))
     }),
     new webpack.ProvidePlugin({
-        $: 'webpack-zepto',
         util: path.join(__dirname, '../src/common/lib/mi.util.js'),
         miStorage: path.join(__dirname, '../src/common/lib/mi.storage.js'),
         moment: "moment"
