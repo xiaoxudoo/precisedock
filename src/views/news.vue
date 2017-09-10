@@ -14,7 +14,17 @@
             </div>
             <div class="row-fluid subody">
                 <div class="container">
-                    <router-view class="col-md-12"></router-view>
+                    <section class="col-md-12">
+                        <ul class="news-list">
+                            <li>
+                                <p class="news-title">
+                                    <router-link to="/news/1">
+                                        <em></em>普瑞赛思与养生堂研发部门进行深入交流</router-link>
+                                </p>
+                                <p class="news-content">8月30日我司销售总监及两名骨干技术人员到访养生堂杭州龙坞基地，双方就CADD辅助研发进行了...<router-link to="/news/1">>></router-link><em class="date">2017年8月30日</em></p>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </div>
 
@@ -63,28 +73,29 @@ module.exports = {
                 opacity: 0.9;
             }
         }
-        .subody .sidebar {
-            width: 265px;
-            margin: 50px 0 20px;
-            border-top: 1px solid #c8c7c7;
-            li {
-                position: relative;
-                height: 42px;
-                line-height: 42px;
-                border-bottom: 1px solid #c8c7c7;
-                &::before {
-                    content: '';
-                    position: absolute;
-                    top: 16px;
-                    left: 0;
-                    width: 10px;
-                    height: 10px;
-                    background: #25b9f9;
-                }
+        .subody .news-list {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .news-title {
                 a {
-                    margin-left: 20px;
-                    color: #000;
-                    opacity: 0.9;
+                    color: #3788c5;
+                    font-size: 22px;
+                    line-height: 25px;
+                }
+                em {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    transform: rotate(45deg);
+                    background: #3788c5;
+                    margin-right: 10px;
+                }
+            }
+            .news-content {
+                margin-top: 20px;
+                padding-left: 25px;
+                .date {
+                    margin-left: 100px;
                 }
             }
         }
