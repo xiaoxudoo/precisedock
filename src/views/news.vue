@@ -100,4 +100,15 @@ module.exports = {
         }
     }
 }
+@media (max-width: 768px) {
+    .news-content {
+        padding-left: 0px!important;
+        .date {
+            display: block;
+            margin-left: 0px!important;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+}
 </style>

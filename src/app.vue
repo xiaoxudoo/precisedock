@@ -86,4 +86,9 @@ p.left {
 		margin-bottom: 40px;
 	}
 }
+@media (max-width: 768px) {
+    .inner_router {
+        padding: 0!important;
+    }
+}
 </style>
