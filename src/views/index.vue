@@ -1,7 +1,7 @@
 <template>
 	<body>
 		<!-- 导航条  默认高度50px, 反色（黑色） 固定在顶部 -->
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
@@ -22,7 +22,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<div class="tel"><em></em>400-0181-1609</div>
+						<div class="tel"><em></em>400-0181-609</div>
 						<li><router-link to="/">首页</router-link></li>						
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">产品与服务<span class="caret"></span></a>
@@ -102,11 +102,11 @@
 					</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span style="opacity:0;" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
 					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span style="opacity:0;" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -187,14 +187,15 @@
 						<img class="cop" alt="coopration" src="../assets/images/universities.jpg">
 						<div class="caption">
 							<ul class="items list-inline">
-								<li class="peking"></li>
-								<li class="tsinghua"></li>
-								<li class="uestc"></li>
-								<li class="btech"></li>
-								<li class="sichuan"></li>
-								<li class="xj"></li>
-								<li class="cas"></li>
-								<li class="wuhan"></li>
+								<li class="peking"><img src="../assets/images/university01.png" alt=""></li>
+								<li class="tsinghua"><img src="../assets/images/university02.png" alt=""></li>
+								<li class="uestc"><img src="../assets/images/university03.png" alt=""></li>
+								<li class="btech"><img src="../assets/images/university04.png" alt=""></li>
+								<br>
+								<li class="sichuan"><img src="../assets/images/university05.png" alt=""></li>
+								<li class="xj"><img src="../assets/images/university06.png" alt=""></li>
+								<li class="cas"><img src="../assets/images/university07.png" alt=""></li>
+								<li class="wuhan"><img src="../assets/images/university08.png" alt=""></li>
 							</ul>
 						</div>
 					</div>
@@ -228,11 +229,13 @@ module.exports = {
 // navigator
 nav.navbar {
 	background: #fff;
+	margin-bottom: 0;
 	.navbar-header .navbar-brand.precise-logo {
 		display: inline-block;
-		width: 300px;
+		width: 200px;
 		height: auto;
 		padding: 0;
+		padding-top: 8px;
 		img {
 			display: inline-block;
 			width: 100%;
@@ -247,7 +250,7 @@ nav.navbar {
 		font-size: 16px;
 		.tel {
 			position: absolute;
-			top: 10px;
+			top: 0px;
 			right: 20px;
 			font-size: 22px;
 			font-weight: bold;
@@ -300,8 +303,10 @@ nav.navbar {
 }
 
 .body {
-	margin-top: 148px;
 	padding: 0px;
+	.carousel-control {
+		background: none!important;
+	}
 	.products {
 		display:block;
 		width: 400px;
@@ -310,11 +315,14 @@ nav.navbar {
 		margin-top: 100px;
 	}
 	.thumbnail {
-		margin-bottom: 95px;
+		margin-bottom: 50px;
 		padding: 0;
 		border: 3px solid #00a0e9;
 		border-radius: 0;
 		p {line-height:80px;font-size: 20px;}
+		img {
+			width: 100%;
+		}
 	}
 	/*cooperation*/
 	.cooperation {
@@ -325,69 +333,20 @@ nav.navbar {
 				font: 24px "Microsoft Yahei", Arial;
 			}
 			ul.items {
-				margin-top: 100px;
+				margin-top: 60px;
 				li {
-				position: relative;
-				width: 350px;
-				height: 100px;
-				padding: 0px;
-				margin-bottom: 50px;
-				overflow: hidden;
-				display: inline-block;
-				-webkit-transition: all .5s ease-in-out 0s;
-				-moz-transition: all .5s ease-in-out 0s;
-				-ms-transition: all .5s ease-in-out 0s;
-				-o-transition: all .5s ease-in-out 0s;
-				transition: all .5s ease-in-out 0s;
-				&.peking {
-					background: url('../assets/images/cop.png') no-repeat -1720px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -1720px -188px;
-					}
+					position: relative;
+					width: 280px;
+					height: 115px;
+					padding: 0px;
+					overflow: hidden;
+					display: inline-block;
+					-webkit-transition: all .5s ease-in-out 0s;
+					-moz-transition: all .5s ease-in-out 0s;
+					-ms-transition: all .5s ease-in-out 0s;
+					-o-transition: all .5s ease-in-out 0s;
+					transition: all .5s ease-in-out 0s;
 				}
-				&.tsinghua {
-					background: url(../assets/images/cop.png) no-repeat -480px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -480px -188px;
-					}
-				}
-				&.uestc {
-					background: url(../assets/images/cop.png) no-repeat -40px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -40px -188px;
-					}
-				}
-				&.btech {
-					background: url(../assets/images/cop.png) no-repeat -2950px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -2950px -188px;
-					}
-				}
-				&.sichuan {
-					background: url('../assets/images/cop.png') no-repeat -2130px -52px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -2130px -185px;
-					}
-				}
-				&.xj {
-					background: url(../assets/images/cop.png) no-repeat -2540px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -2540px -188px;
-					}
-				}
-				&.cas {
-					background: url(../assets/images/cop.png) no-repeat -870px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -870px -188px;
-					}
-				}
-				&.wuhan {
-					background: url(../assets/images/cop.png) no-repeat -1290px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -1290px -188px;
-					}
-				}
-			}
 			}
 		}
 	}
@@ -396,7 +355,7 @@ nav.navbar {
 	.navbar-nav {
 		float: right;
 		margin: 0;
-		padding-top: 68px;
+		padding-top: 45px;
 	}
 }
 @media (max-width: 768px) {

@@ -115,4 +115,9 @@ module.exports = {
     margin-bottom: 35px;
   }
 }
+@media (max-width: 768px) {
+	.qr-code {
+    margin-right: 50px!important;
+  }
+}
 </style>

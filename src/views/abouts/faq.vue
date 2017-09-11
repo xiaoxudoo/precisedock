@@ -38,6 +38,12 @@
         <p style=" margin-bottom:100px">
           A: 普瑞赛思为您配备专业的项目小组负责您的项目沟通和实施。普瑞赛思会在接到任务内容的第一时间安排项目服务小组为您服务，制定实施方案。回复时间根据具体服务内容确定。回复时间周期由双方进行沟通确定。 <br/><br/>
         </p>
+<<<<<<< HEAD
+=======
+        <div class="centered">         
+            <img style="width: 70%;" src="../../assets/images/vs02.jpg" />
+        </div>
+>>>>>>> 1e22da1927d678ab2e89c8932808353e1898c90d
     </div>
 </template>
 

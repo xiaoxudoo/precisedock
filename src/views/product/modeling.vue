@@ -12,6 +12,22 @@
             &nbsp;&nbsp;&nbsp;&nbsp;高质量的同源建模的结果可以帮助研究人员了解目标蛋白的结构性质，分析与研究其“结构—功能”关系，以便研究蛋白-蛋白相互作用，蛋白-DNA、RNA和小分子药物、多肽相互作用。可用于阐明蛋白作用机制，药物的虚拟筛选，药物的设计，以发现某种疾病的潜在治疗药物。<br/><br/>
             <span style="font-weight:bold">建模服务类型：</span>抗体建模、GPCR蛋白建模、激酶蛋白建模、普通蛋白同源建模、同源多聚体的蛋白同源模建、异源多聚体的蛋白同源模建。
         </p>
+<<<<<<< HEAD
+=======
+        <div class="centered">         
+            <img style="width: 98%;margin-bottom: 160px;" src="../../assets/images/vs01.jpg" />
+        </div>
+        <div class="router-title">
+            <p>基于结构的反向虚拟筛选</p>
+            <em class="bar"></em>
+        </div>
+        <p class="left">
+            &nbsp;&nbsp;&nbsp;&nbsp;反向虚拟筛选是一种对给定药物或活性小分子通过计算方法找到其潜在药物靶标的技术。可以用于化合物靶标确证、药物新作用研究、药物毒副作用研究。目前公司已经构建多个靶标库。
+        </p>
+        <div class="centered">         
+            <img style="width: 70%;" src="../../assets/images/vs02.jpg" />
+        </div>
+>>>>>>> 1e22da1927d678ab2e89c8932808353e1898c90d
     </div>
 </template>
 
