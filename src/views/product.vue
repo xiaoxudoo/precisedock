@@ -69,7 +69,6 @@ module.exports = {
 <style lang="scss" scoped>
 .wrapper {
     .mbody {
-        margin-top: 90px;
         padding: 0px;
         .subheader {
             height: 70px;

@@ -70,4 +70,20 @@ p.left {
 	font-size: 16px;
 	line-height: 1.5;
 }
+.news_content {
+	text-align: center;
+	p {
+		text-indent: 20px;
+		text-align: left;
+		font-size: 24px;
+		color: #000;
+		opacity: 0.6;
+		font-family: 'MicroSoft Yahei';
+		margin-bottom: 20px;		
+	}
+	img {
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -118,6 +118,7 @@ module.exports = {
 // navigator
 nav.navbar {
     background: #fff;
+    margin-bottom: 0;
     .navbar-header .navbar-brand.precise-logo {
         display: inline-block;
         width: 180px;
