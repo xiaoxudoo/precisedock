@@ -11,7 +11,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;科技成就梦想，计算成就未来，我们将始终致力于运用最尖端的技术和创新，为广大医药科研工作者提供最先进、最可靠、最高效的计算机辅助药物设计服务。<br/><br/><br/><br/>
         </p>
         <div class="centered">         
-            <img style="width: 95%;margin-bottom: 100px;" src="../../assets/images/company.png" />
+            <img style="width: 95%;margin-bottom: 100px;" src="../../assets/images/company.jpg" />
         </div>
         
     </div>
