@@ -346,28 +346,28 @@ nav.navbar {
 				-o-transition: all .5s ease-in-out 0s;
 				transition: all .5s ease-in-out 0s;
 				&.peking {
-					background: url('../assets/images/cop.png') no-repeat -1720px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -1720px -57px;
 				}
 				&.tsinghua {
-					background: url('../assets/images/cop.png') no-repeat -480px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -480px -57px;
 				}
 				&.uestc {
-					background: url('../assets/images/cop.png') no-repeat -40px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -40px -57px;
 				}
 				&.btech {
-					background: url('../assets/images/cop.png') no-repeat -2950px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -2950px -57px;
 				}
 				&.sichuan {
-					background: url('../assets/images/cop.png') no-repeat -2130px -52px;
+					background: url('../assets/images/cop.jpg') no-repeat -2130px -52px;
 				}
 				&.xj {
-					background: url('../assets/images/cop.png') no-repeat -2540px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -2540px -57px;
 				}
 				&.cas {
-					background: url('../assets/images/cop.png') no-repeat -870px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -870px -57px;
 				}
 				&.wuhan {
-					background: url('../assets/images/cop.png') no-repeat -1290px -57px;
+					background: url('../assets/images/cop.jpg') no-repeat -1290px -57px;
 				}
 			}
 			}
