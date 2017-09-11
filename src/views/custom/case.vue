@@ -15,11 +15,7 @@
            B老师已经知道蛋白质β和小分子a能够相互作用，这对某种神经类疾病具有重要的作用，但是B并不了解小分子a和蛋白质β的具体作用机制，B想要从微观结构上来阐述小分子a和蛋白β的作用机理，因此他想到分子动力学的方法，这种方法能合理预测药物和标靶蛋白的结合机理，
         </p>
         <div class="centered">         
-<<<<<<< HEAD
             <img style="width: 50%;margin-bottom: 100px;" src="../../assets/images/case2.png" />
-=======
-            <img style="width: 70%;" src="../../assets/images/vs02.jpg" />
->>>>>>> 1e22da1927d678ab2e89c8932808353e1898c90d
         </div>
     </div>
 </template>

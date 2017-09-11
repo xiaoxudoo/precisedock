@@ -29,13 +29,8 @@
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;公司为员工提供良好的工作环境和发展平台，努力实现员工与企业的共同发展和进步，并与员工充分分享企业发展成果，共享成功。<br/><br/>
         </p>
-<<<<<<< HEAD
         <div style="margin-top:20px;margin-bottom:60px" >         
             <span><img style="width: 2.5%" src="../../assets/images/join.png" />&nbsp;hr@precisedock.com</span>
-=======
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.jpg" />
->>>>>>> 1e22da1927d678ab2e89c8932808353e1898c90d
         </div>
     </div>
 </template>

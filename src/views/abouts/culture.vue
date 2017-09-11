@@ -27,16 +27,11 @@
         <p class="left" style="font-size:15px; margin-bottom: 65px;">
            &nbsp;&nbsp;&nbsp;&nbsp;客户第一、团队合作、诚信、敬业
         </p>
-<<<<<<< HEAD
         <div>         
             <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture1.png" />
             <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture2.png" />
             <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture3.png" />
             <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture4.png" />
-=======
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.jpg" />
->>>>>>> 1e22da1927d678ab2e89c8932808353e1898c90d
         </div>
     </div>
 </template>

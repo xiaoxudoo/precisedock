@@ -13,12 +13,6 @@
         <p class="left" style="margin-bottom: 100px;">
             &nbsp;&nbsp;&nbsp;&nbsp;为了帮助科研人员快速掌握CADD技能，提升客户研发能力，结合客户需求，我们可以开展同源建模、分子对接、分子动力学、虚拟筛选、反向虚拟筛选、ADMET预测、药物设计等方面的定制技术培训。
         </p>
-<<<<<<< HEAD
-=======
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.jpg" />
-        </div>
->>>>>>> 1e22da1927d678ab2e89c8932808353e1898c90d
     </div>
 </template>
 
