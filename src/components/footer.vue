@@ -48,7 +48,7 @@
       </div>
       <div class="col-md-3">
         <p class="footer-title">客服热线</p>
-        <p class="tel-number">400-0181-1609</p>
+        <p class="tel-number">400-0181-609</p>
         <p class="footer-title">客户意见反馈邮箱</p>
         <p class="email"><a href="mailto:info@precisedock.com">info@precisedock.com</a></p>
       </div>

@@ -1,25 +1,23 @@
 <template>
     <div class="inner_router centered">
         <div class="router-title">
-            <p>基于结构的虚拟筛选</p>
+            <p>合作客户</p>
             <em class="bar"></em>
         </div>
         <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;该技术广泛应用于小分子发现的早期过程中。通过分子对接软件模拟靶点受体蛋白质与多个化合物之间进行相互作用配体，计算两者之间的亲和力大小，从而预测潜在结合的小分子。虚拟筛选技术已经成为当今小分子研发的重要手段，它能大大缩减传统实验筛选带来的财力、精力、时间上的消耗。<br/></br> &nbsp;&nbsp;&nbsp;&nbsp;本公司已经构建多个小分子化合物数据库，包含数百万个小分子，运用多种分子对接软件，可以快速实现寻找潜在先导化合物。</br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;到目前为止，公司合作伙伴遍布全国，包括北京大学、清华大学、中国医学科学院药物研究所、北京中医药大学、中国科学院昆明植物研究所、中国药科大学、湖南中医药大学、中国农业大学、北京师范大学、军事医学科学院、武警总医院、301医院、浙江大学、华东师范大学、上海交通大学、华东理工大学等。已经完成和正在进行多项国家和省市重大或重点科研项目，受到合作伙伴的认同和好评。</br></br>
         </p>
         <div class="centered">         
-            <img style="width: 98%;margin-bottom: 160px;" src="../../assets/images/vs01.jpg" />
+            <img style="width: 40%;" src="../../assets/images/university01.png" />
+            <img style="width: 40%;" src="../../assets/images/university02.png" />
+            <img style="width: 40%;" src="../../assets/images/university05.png" />
+            <img style="width: 40%;" src="../../assets/images/university06.png" />
+            <img style="width: 40%;" src="../../assets/images/university03.png" />
+            <img style="width: 40%;" src="../../assets/images/university04.png" />
+            <img style="width: 40%;margin-bottom: 100px;" src="../../assets/images/university07.png" />
+            <img style="width: 40%;margin-bottom: 100px;" src="../../assets/images/university08.png" />
         </div>
-        <div class="router-title">
-            <p>基于结构的反向虚拟筛选</p>
-            <em class="bar"></em>
-        </div>
-        <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;反向虚拟筛选是一种对给定药物或活性小分子通过计算方法找到其潜在药物靶标的技术。可以用于化合物靶标确证、药物新作用研究、药物毒副作用研究。目前公司已经构建多个靶标库。
-        </p>
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.png" />
-        </div>
+        
     </div>
 </template>
 

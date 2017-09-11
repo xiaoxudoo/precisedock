@@ -1,24 +1,21 @@
 <template>
     <div class="inner_router centered">
         <div class="router-title">
-            <p>基于结构的虚拟筛选</p>
+            <p>经典案例</p>
             <em class="bar"></em>
         </div>
         <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;该技术广泛应用于小分子发现的早期过程中。通过分子对接软件模拟靶点受体蛋白质与多个化合物之间进行相互作用配体，计算两者之间的亲和力大小，从而预测潜在结合的小分子。虚拟筛选技术已经成为当今小分子研发的重要手段，它能大大缩减传统实验筛选带来的财力、精力、时间上的消耗。<br/></br> &nbsp;&nbsp;&nbsp;&nbsp;本公司已经构建多个小分子化合物数据库，包含数百万个小分子，运用多种分子对接软件，可以快速实现寻找潜在先导化合物。</br></br>
+            A老师对蛋白α 已经有了较深的研究，A已经通过研究知道蛋白α在某种疾病种起到关键作用，并且蛋白α有解析结构。A想要找到某种抑制剂抑制蛋白α，从而达到疾病的治疗，通过大规模的筛选是找到这种抑制剂最直接的方法，但是考虑到高通量筛选方法的成本、时间等方面的因素，A想先通过虚拟筛选的方法先筛选先找到可能潜在的小分子，然后再进一步进行试验验证，做到投入产出比最大化。</br></br>
         </p>
         <div class="centered">         
-            <img style="width: 98%;margin-bottom: 160px;" src="../../assets/images/vs01.jpg" />
+            <img style="width: 50%;margin-bottom: 30px;" src="../../assets/images/case1.png" />
         </div>
-        <div class="router-title">
-            <p>基于结构的反向虚拟筛选</p>
-            <em class="bar"></em>
-        </div>
+        
         <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;反向虚拟筛选是一种对给定药物或活性小分子通过计算方法找到其潜在药物靶标的技术。可以用于化合物靶标确证、药物新作用研究、药物毒副作用研究。目前公司已经构建多个靶标库。
+           B老师已经知道蛋白质β和小分子a能够相互作用，这对某种神经类疾病具有重要的作用，但是B并不了解小分子a和蛋白质β的具体作用机制，B想要从微观结构上来阐述小分子a和蛋白β的作用机理，因此他想到分子动力学的方法，这种方法能合理预测药物和标靶蛋白的结合机理，
         </p>
         <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.png" />
+            <img style="width: 50%;margin-bottom: 100px;" src="../../assets/images/case2.png" />
         </div>
     </div>
 </template>

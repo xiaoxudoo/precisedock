@@ -1,24 +1,37 @@
 <template>
-    <div class="inner_router centered">
-        <div class="router-title">
-            <p>基于结构的虚拟筛选</p>
+    <div class="inner_router ">
+        <div class="router-title centered">
+            <p>公司文化</p>
             <em class="bar"></em>
         </div>
-        <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;该技术广泛应用于小分子发现的早期过程中。通过分子对接软件模拟靶点受体蛋白质与多个化合物之间进行相互作用配体，计算两者之间的亲和力大小，从而预测潜在结合的小分子。虚拟筛选技术已经成为当今小分子研发的重要手段，它能大大缩减传统实验筛选带来的财力、精力、时间上的消耗。<br/></br> &nbsp;&nbsp;&nbsp;&nbsp;本公司已经构建多个小分子化合物数据库，包含数百万个小分子，运用多种分子对接软件，可以快速实现寻找潜在先导化合物。</br></br>
+
+        <p style="font-size:18px;color:#51c7fa;margin-bottom: 45px;">
+          企业文化
         </p>
-        <div class="centered">         
-            <img style="width: 98%;margin-bottom: 160px;" src="../../assets/images/vs01.jpg" />
-        </div>
-        <div class="router-title">
-            <p>基于结构的反向虚拟筛选</p>
-            <em class="bar"></em>
-        </div>
-        <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;反向虚拟筛选是一种对给定药物或活性小分子通过计算方法找到其潜在药物靶标的技术。可以用于化合物靶标确证、药物新作用研究、药物毒副作用研究。目前公司已经构建多个靶标库。
+        <p class="left" style="font-size:15px; margin-bottom: 65px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;普瑞赛思是一家专注于计算机辅助药物设计的高科技公司，我们是国内制药行业、高校、研究院所的优秀外包伙伴。<br/><br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;我们的业务成功和快速成长有赖于我们专注精神和创新精神，并且始终如一地关注和满足客户的需求。<br/><br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;我们始终相信，专注和创新是一个企业的最佳生存法则。
         </p>
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.png" />
+        
+        <p style="font-size:18px;color:#51c7fa;margin-bottom: 45px;">
+          企业愿景
+        </p>
+        <p class="left" style="font-size:15px; margin-bottom: 65px;">
+           &nbsp;&nbsp;&nbsp;&nbsp; 成为药物研发服务的标杆
+        </p>
+        
+        <p style="font-size:18px;color:#51c7fa;margin-bottom: 45px;">
+          企业价值观
+        </p>
+        <p class="left" style="font-size:15px; margin-bottom: 65px;">
+           &nbsp;&nbsp;&nbsp;&nbsp;客户第一、团队合作、诚信、敬业
+        </p>
+        <div>         
+            <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture1.png" />
+            <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture2.png" />
+            <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture3.png" />
+            <img style="width: 24%;margin-bottom: 100px;" src="../../assets/images/culture4.png" />
         </div>
     </div>
 </template>

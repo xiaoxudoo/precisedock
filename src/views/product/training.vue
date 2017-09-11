@@ -1,25 +1,18 @@
 <template>
     <div class="inner_router centered">
         <div class="router-title">
-            <p>基于结构的虚拟筛选</p>
+            <p>定制培训</p>
             <em class="bar"></em>
         </div>
         <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;该技术广泛应用于小分子发现的早期过程中。通过分子对接软件模拟靶点受体蛋白质与多个化合物之间进行相互作用配体，计算两者之间的亲和力大小，从而预测潜在结合的小分子。虚拟筛选技术已经成为当今小分子研发的重要手段，它能大大缩减传统实验筛选带来的财力、精力、时间上的消耗。<br/></br> &nbsp;&nbsp;&nbsp;&nbsp;本公司已经构建多个小分子化合物数据库，包含数百万个小分子，运用多种分子对接软件，可以快速实现寻找潜在先导化合物。</br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp; 普瑞赛思是一家专业的计算机辅助药物设计（CADD）服务商，技术团队都具有扎实的CADD理论知识和丰富的项目经验。普瑞赛思一直在为提高国内高校、研究所、企业、医院等对CADD的认知做最大的努力，为不同定位的客户提供个性化的培训。</br></br>
         </p>
         <div class="centered">         
-            <img style="width: 98%;margin-bottom: 160px;" src="../../assets/images/vs01.jpg" />
+            <img style="width: 45%;margin-bottom: 20px;" src="../../assets/images/training.png" />
         </div>
-        <div class="router-title">
-            <p>基于结构的反向虚拟筛选</p>
-            <em class="bar"></em>
-        </div>
-        <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;反向虚拟筛选是一种对给定药物或活性小分子通过计算方法找到其潜在药物靶标的技术。可以用于化合物靶标确证、药物新作用研究、药物毒副作用研究。目前公司已经构建多个靶标库。
+        <p class="left" style="margin-bottom: 100px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;为了帮助科研人员快速掌握CADD技能，提升客户研发能力，结合客户需求，我们可以开展同源建模、分子对接、分子动力学、虚拟筛选、反向虚拟筛选、ADMET预测、药物设计等方面的定制技术培训。
         </p>
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.png" />
-        </div>
     </div>
 </template>
 

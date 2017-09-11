@@ -1,24 +1,36 @@
 <template>
-    <div class="inner_router centered">
-        <div class="router-title">
-            <p>基于结构的虚拟筛选</p>
+    <div class="inner_router ">
+        <div class="router-title centered">
+            <p>加入我们</p>
             <em class="bar"></em>
         </div>
+
         <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;该技术广泛应用于小分子发现的早期过程中。通过分子对接软件模拟靶点受体蛋白质与多个化合物之间进行相互作用配体，计算两者之间的亲和力大小，从而预测潜在结合的小分子。虚拟筛选技术已经成为当今小分子研发的重要手段，它能大大缩减传统实验筛选带来的财力、精力、时间上的消耗。<br/></br> &nbsp;&nbsp;&nbsp;&nbsp;本公司已经构建多个小分子化合物数据库，包含数百万个小分子，运用多种分子对接软件，可以快速实现寻找潜在先导化合物。</br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;员工是企业最宝贵的资源，是实现企业战略目标的重要保证，是企业持续发展的动力。普瑞赛思始终尊崇“以人为本”、“人尽其才，才尽其用”的人才理念。<br/><br/>
+            因此，我们有责任：<br/><br/>
         </p>
-        <div class="centered">         
-            <img style="width: 98%;margin-bottom: 160px;" src="../../assets/images/vs01.jpg" />
-        </div>
-        <div class="router-title">
-            <p>基于结构的反向虚拟筛选</p>
-            <em class="bar"></em>
-        </div>
-        <p class="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;反向虚拟筛选是一种对给定药物或活性小分子通过计算方法找到其潜在药物靶标的技术。可以用于化合物靶标确证、药物新作用研究、药物毒副作用研究。目前公司已经构建多个靶标库。
+
+        <p style="font-weight:bold">(1) 尊重员工的个人尊严和价值 <br/><br/></p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;鼓励员工在友爱、公平、竞争、合作的环境中发挥最高的工作水平，实现自我价值。充分尊重个人权益，主管与下属坦诚地进行双向交流，引导他们完成工作和职业发展。<br/><br/>
         </p>
-        <div class="centered">         
-            <img style="width: 70%;" src="../../assets/images/vs02.png" />
+
+        <p style="font-weight:bold">(2) 鼓励员工的主动性和创造力<br/><br/></p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;公司为员工提供一个既有策略导向又能发挥创造力的工作环境。创新精神永远是公司成长过程中不可缺少的条件，因此，在诚挚和互相尊重的前提下加以鼓励和支持。<br/><br/>
+        </p>
+
+        <p style="font-weight:bold">(3) 激发员工的个人潜力<br/><br/></p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;尊重并结合员工自身的发展计划，以公司整体目标的实现来带动员工成长，不遗余力地使其潜能配合公司规划而得以最大发挥。<br/><br/>
+        </p>
+
+        <p style="font-weight:bold">(4) 与员工共享成功喜悦<br/><br/></p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;公司为员工提供良好的工作环境和发展平台，努力实现员工与企业的共同发展和进步，并与员工充分分享企业发展成果，共享成功。<br/><br/>
+        </p>
+        <div style="margin-top:20px;margin-bottom:60px" >         
+            <span><img style="width: 2.5%" src="../../assets/images/join.png" />&nbsp;hr@precisedock.com</span>
         </div>
     </div>
 </template>
