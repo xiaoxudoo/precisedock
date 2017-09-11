@@ -231,9 +231,10 @@ nav.navbar {
 	margin-bottom: 0;
 	.navbar-header .navbar-brand.precise-logo {
 		display: inline-block;
-		width: 300px;
+		width: 200px;
 		height: auto;
 		padding: 0;
+		padding-top: 8px;
 		img {
 			display: inline-block;
 			width: 100%;
@@ -248,7 +249,7 @@ nav.navbar {
 		font-size: 16px;
 		.tel {
 			position: absolute;
-			top: 10px;
+			top: 0px;
 			right: 20px;
 			font-size: 22px;
 			font-weight: bold;
@@ -378,7 +379,7 @@ nav.navbar {
 	.navbar-nav {
 		float: right;
 		margin: 0;
-		padding-top: 68px;
+		padding-top: 45px;
 	}
 }
 @media (max-width: 768px) {

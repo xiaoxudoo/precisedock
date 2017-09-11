@@ -121,12 +121,12 @@ nav.navbar {
     margin-bottom: 0;
     .navbar-header .navbar-brand.precise-logo {
         display: inline-block;
-        width: 180px;
-        height: 90px;
+        width: 200px;
+        height: auto;
         padding: 0;
         img {
             display: inline-block;
-            width: 180px;
+            width: 100%;
         }
     }
     .navbar-collapse {
