@@ -187,14 +187,15 @@
 						<img class="cop" alt="coopration" src="../assets/images/universities.jpg">
 						<div class="caption">
 							<ul class="items list-inline">
-								<li class="peking"></li>
-								<li class="tsinghua"></li>
-								<li class="uestc"></li>
-								<li class="btech"></li>
-								<li class="sichuan"></li>
-								<li class="xj"></li>
-								<li class="cas"></li>
-								<li class="wuhan"></li>
+								<li class="peking"><img src="../assets/images/university01.png" alt=""></li>
+								<li class="tsinghua"><img src="../assets/images/university02.png" alt=""></li>
+								<li class="uestc"><img src="../assets/images/university03.png" alt=""></li>
+								<li class="btech"><img src="../assets/images/university04.png" alt=""></li>
+								<br>
+								<li class="sichuan"><img src="../assets/images/university05.png" alt=""></li>
+								<li class="xj"><img src="../assets/images/university06.png" alt=""></li>
+								<li class="cas"><img src="../assets/images/university07.png" alt=""></li>
+								<li class="wuhan"><img src="../assets/images/university08.png" alt=""></li>
 							</ul>
 						</div>
 					</div>
@@ -314,7 +315,7 @@ nav.navbar {
 		margin-top: 100px;
 	}
 	.thumbnail {
-		margin-bottom: 95px;
+		margin-bottom: 50px;
 		padding: 0;
 		border: 3px solid #00a0e9;
 		border-radius: 0;
@@ -332,45 +333,20 @@ nav.navbar {
 				font: 24px "Microsoft Yahei", Arial;
 			}
 			ul.items {
-				margin-top: 100px;
+				margin-top: 60px;
 				li {
-				position: relative;
-				width: 350px;
-				height: 100px;
-				padding: 0px;
-				margin-bottom: 50px;
-				overflow: hidden;
-				display: inline-block;
-				-webkit-transition: all .5s ease-in-out 0s;
-				-moz-transition: all .5s ease-in-out 0s;
-				-ms-transition: all .5s ease-in-out 0s;
-				-o-transition: all .5s ease-in-out 0s;
-				transition: all .5s ease-in-out 0s;
-				&.peking {
-					background: url('../assets/images/cop.jpg') no-repeat -1720px -57px;
+					position: relative;
+					width: 280px;
+					height: 115px;
+					padding: 0px;
+					overflow: hidden;
+					display: inline-block;
+					-webkit-transition: all .5s ease-in-out 0s;
+					-moz-transition: all .5s ease-in-out 0s;
+					-ms-transition: all .5s ease-in-out 0s;
+					-o-transition: all .5s ease-in-out 0s;
+					transition: all .5s ease-in-out 0s;
 				}
-				&.tsinghua {
-					background: url('../assets/images/cop.jpg') no-repeat -480px -57px;
-				}
-				&.uestc {
-					background: url('../assets/images/cop.jpg') no-repeat -40px -57px;
-				}
-				&.btech {
-					background: url('../assets/images/cop.jpg') no-repeat -2950px -57px;
-				}
-				&.sichuan {
-					background: url('../assets/images/cop.jpg') no-repeat -2130px -52px;
-				}
-				&.xj {
-					background: url('../assets/images/cop.jpg') no-repeat -2540px -57px;
-				}
-				&.cas {
-					background: url('../assets/images/cop.jpg') no-repeat -870px -57px;
-				}
-				&.wuhan {
-					background: url('../assets/images/cop.jpg') no-repeat -1290px -57px;
-				}
-			}
 			}
 		}
 	}
