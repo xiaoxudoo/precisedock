@@ -22,7 +22,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<div class="tel"><em></em>400-0181-1609</div>
+						<div class="tel"><em></em>400-0181-609</div>
 						<li><router-link to="/">首页</router-link></li>						
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">产品与服务<span class="caret"></span></a>
@@ -102,11 +102,11 @@
 					</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span style="opacity:0;" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
 					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span style="opacity:0;" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -302,6 +302,9 @@ nav.navbar {
 .body {
 	margin-top: 148px;
 	padding: 0px;
+	.carousel-control {
+		background: none!important;
+	}
 	.products {
 		display:block;
 		width: 400px;
@@ -315,6 +318,9 @@ nav.navbar {
 		border: 3px solid #00a0e9;
 		border-radius: 0;
 		p {line-height:80px;font-size: 20px;}
+		img {
+			width: 100%;
+		}
 	}
 	/*cooperation*/
 	.cooperation {
@@ -341,51 +347,27 @@ nav.navbar {
 				transition: all .5s ease-in-out 0s;
 				&.peking {
 					background: url('../assets/images/cop.png') no-repeat -1720px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -1720px -188px;
-					}
 				}
 				&.tsinghua {
-					background: url(../assets/images/cop.png) no-repeat -480px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -480px -188px;
-					}
+					background: url('../assets/images/cop.png') no-repeat -480px -57px;
 				}
 				&.uestc {
-					background: url(../assets/images/cop.png) no-repeat -40px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -40px -188px;
-					}
+					background: url('../assets/images/cop.png') no-repeat -40px -57px;
 				}
 				&.btech {
-					background: url(../assets/images/cop.png) no-repeat -2950px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -2950px -188px;
-					}
+					background: url('../assets/images/cop.png') no-repeat -2950px -57px;
 				}
 				&.sichuan {
 					background: url('../assets/images/cop.png') no-repeat -2130px -52px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -2130px -185px;
-					}
 				}
 				&.xj {
-					background: url(../assets/images/cop.png) no-repeat -2540px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -2540px -188px;
-					}
+					background: url('../assets/images/cop.png') no-repeat -2540px -57px;
 				}
 				&.cas {
-					background: url(../assets/images/cop.png) no-repeat -870px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -870px -188px;
-					}
+					background: url('../assets/images/cop.png') no-repeat -870px -57px;
 				}
 				&.wuhan {
-					background: url(../assets/images/cop.png) no-repeat -1290px -57px;
-					&:hover{
-						background: url(../assets/images/cop.png) no-repeat -1290px -188px;
-					}
+					background: url('../assets/images/cop.png') no-repeat -1290px -57px;
 				}
 			}
 			}

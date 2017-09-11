@@ -75,7 +75,7 @@ module.exports = {
         }
         .subody .news-list {
             margin-top: 50px;
-            margin-bottom: 50px;
+            margin-bottom: 150px;
             .news-title {
                 a {
                     color: #3788c5;
