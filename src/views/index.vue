@@ -270,6 +270,9 @@ nav.navbar {
 		& > li:hover {
 			background: #e6e7e7;
 			a {color: #00b7ee;}
+			.dropdown-menu {  
+                display: block;
+            }
 		}
 		.dropdown {
 			.dropdown-menu {

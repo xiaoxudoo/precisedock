@@ -136,10 +136,13 @@ nav.navbar {
         position: relative;
         color: #000;
         font-size: 16px;
-        &>li:hover {
+        & > li:hover {
             background: #e6e7e7;
             a {
                 color: #00b7ee;
+            }
+            .dropdown-menu {  
+                display: block;
             }
         }
         .dropdown {
