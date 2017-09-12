@@ -77,7 +77,6 @@ module.exports = {
 
 <style scoped lang="scss">
 /*footer*/
-
 .footer {
   background-color: #f0f0f0;
   border-top: 6px solid #78d5fd;
@@ -117,8 +116,14 @@ module.exports = {
   }
 }
 @media (max-width: 768px) {
+  .footer {
+    padding-left: 20px!important;
+  }
 	.qr-code {
     margin-right: 50px!important;
+  }
+  .tel-number {
+    margin-bottom: 0px!important;
   }
 }
 </style>
