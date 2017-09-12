@@ -359,6 +359,11 @@ nav.navbar {
 	}
 }
 @media (max-width: 768px) {
+	.products {
+		width: 100%!important;
+		padding: 0 20px;
+		height: auto;
+	}
 	.navbar-nav {
 		margin: 0;
 		.tel {
