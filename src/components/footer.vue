@@ -105,6 +105,10 @@ module.exports = {
     li {
       line-height: 28px;
     }
+    li a:hover{
+      color: #000;
+      cursor:pointer;
+    }
   }
   .footer-title {
     color: #000;
