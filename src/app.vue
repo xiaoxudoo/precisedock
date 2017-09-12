@@ -69,6 +69,7 @@ p.left {
 	text-align: left;
 	font-size: 16px;
 	line-height: 1.5;
+	color: #000;
 }
 .news_content {
 	text-align: center;

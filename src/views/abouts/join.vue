@@ -29,8 +29,8 @@
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;公司为员工提供良好的工作环境和发展平台，努力实现员工与企业的共同发展和进步，并与员工充分分享企业发展成果，共享成功。<br/><br/>
         </p>
-        <div style="margin-top:20px;margin-bottom:60px" >         
-            <span><img style="width: 2.5%" src="../../assets/images/join.png" />&nbsp;hr@precisedock.com</span>
+        <div style="margin-top:20px;margin-bottom:60px;color:#000;" >         
+            <span><img style="width: 2.5%;" src="../../assets/images/join.png" />&nbsp;hr@precisedock.com</span>
         </div>
     </div>
 </template>
@@ -53,5 +53,8 @@ module.exports = {
 .inner_router {
     margin-top: 36px;
     padding: 0 0 0 50px;
+    p {
+        color: #000;
+    }
 }
 </style>

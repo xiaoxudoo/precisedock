@@ -59,5 +59,8 @@ module.exports = {
 .inner_router {
     margin-top: 36px;
     padding: 0 0 0 50px;
+    p {
+        color: #000;
+    }
 }
 </style>

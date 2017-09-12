@@ -82,7 +82,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="../assets/images/carousel04.jpg" />
+							<img src="../assets/images/carousel02.jpg" />
 							<div class="carousel-caption">
 								<h2></h2>
 							</div>
@@ -94,7 +94,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="../assets/images/carousel02.jpg" />
+							<img src="../assets/images/carousel04.jpg" />
 							<div class="carousel-caption">
 								<h2></h2>
 							</div>
