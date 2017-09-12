@@ -111,6 +111,10 @@ module.exports = {
                     color: #000;
                     opacity: 0.9;
                 }
+                a:hover{
+                    color: #24b9f9;
+                    opacity: 0.9;
+                }
             }
         }
     }
