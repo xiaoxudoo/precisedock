@@ -8,14 +8,14 @@
             A老师对蛋白α 已经有了较深的研究，A已经通过研究知道蛋白α在某种疾病种起到关键作用，并且蛋白α有解析结构。A想要找到某种抑制剂抑制蛋白α，从而达到疾病的治疗，通过大规模的筛选是找到这种抑制剂最直接的方法，但是考虑到高通量筛选方法的成本、时间等方面的因素，A想先通过虚拟筛选的方法先筛选先找到可能潜在的小分子，然后再进一步进行试验验证，做到投入产出比最大化。</br></br>
         </p>
         <div class="centered">         
-            <img style="width: 80%;margin-bottom: 30px;" src="../../assets/images/case01.jpg" />
+            <img style="width: 80%;margin-top: -10px;" src="../../assets/images/case01.jpg" />
         </div>
         
         <p class="left">
            B老师已经知道蛋白质β和小分子a能够相互作用，这对某种神经类疾病具有重要的作用，但是B并不了解小分子a和蛋白质β的具体作用机制，B想要从微观结构上来阐述小分子a和蛋白β的作用机理，因此他想到分子动力学的方法，这种方法能合理预测药物和标靶蛋白的结合机理，
         </p>
         <div class="centered">         
-            <img style="width: 80%;margin-bottom: 100px;" src="../../assets/images/case02.jpg" />
+            <img style="width: 50%;margin-top: 50px;margin-bottom: 100px;" src="../../assets/images/case02.jpg" />
         </div>
     </div>
 </template>

@@ -82,7 +82,7 @@ module.exports = {
   border-top: 6px solid #78d5fd;
   padding-top: 30px;
   padding-bottom: 40px;
-  padding-left: 100px;
+  padding-left: 80px;
   .qr-code {
     float: right;
     margin-right: 100px;

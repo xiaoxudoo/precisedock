@@ -117,7 +117,7 @@
 			<div class="container-fluid">
 				<div class="row-fluid centered">
 					<div class="col-md-4">
-						<div class="thumbnail">
+						<div class="thumbnail thumbnail-item">
 							<router-link to="/product/virtualscreen">
 								<img class="vs" src="../assets/images/product01.jpg" alt="virtual screen">
 								<div class="caption">
@@ -127,7 +127,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
+						<div class="thumbnail thumbnail-item">
 							<router-link to="/product/md">
 								<img class="md" src="../assets/images/product02.jpg" alt="molecular dynamics">
 								<div class="caption">
@@ -137,7 +137,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
+						<div class="thumbnail thumbnail-item">
 							<router-link to="/product/dock">							
 								<img class="dock" alt="molecular docking" src="../assets/images/product03.jpg">
 								<div class="caption">
@@ -149,7 +149,7 @@
 				</div>
 				<div class="row-fluid centered">
 					<div class="col-md-4">
-						<div class="thumbnail">
+						<div class="thumbnail thumbnail-item">
 							<router-link to="/product/modeling">														
 								<img class="model" alt="Bootstrap Thumbnail Second" src="../assets/images/product04.jpg">
 								<div class="caption">
@@ -159,7 +159,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
+						<div class="thumbnail thumbnail-item">
 							<router-link to="/product/pharmacophore">
 								<img class="pharm" alt="Bootstrap Thumbnail Second" src="../assets/images/product05.jpg">
 								<div class="caption">
@@ -169,7 +169,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
+						<div class="thumbnail thumbnail-item">
 							<router-link to="/product/platform">
 								<img class="valid" alt="Bootstrap Thumbnail Third" src="../assets/images/product06.jpg">
 								<div class="caption">
@@ -318,13 +318,24 @@ nav.navbar {
 		margin-top: 100px;
 	}
 	.thumbnail {
+		position: relative;
 		margin-bottom: 50px;
 		padding: 0;
 		border: 3px solid #00a0e9;
 		border-radius: 0;
+		overflow: hidden;
 		p {line-height:80px;font-size: 20px;}
 		img {
 			width: 100%;
+			transition: all 1.0s;
+		}
+		&:hover {
+			p {
+				color: #00b7ee;
+			}
+			img {
+				transform: scale(1.1);
+			}
 		}
 	}
 	/*cooperation*/
