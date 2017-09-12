@@ -28,7 +28,7 @@
            &nbsp;&nbsp;&nbsp;&nbsp;客户第一、团队合作、诚信、敬业
         </p>
         <div>         
-            <img style="width:100%;margin-bottom: 100px;" src="../../assets/images/culture.jpg" />
+            <img style="margin-bottom: 100px;" src="../../assets/images/culture.jpg" />
         </div>
     </div>
 </template>

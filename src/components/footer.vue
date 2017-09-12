@@ -81,8 +81,9 @@ module.exports = {
 .footer {
   background-color: #f0f0f0;
   border-top: 6px solid #78d5fd;
-  padding-top: 75px;
+  padding-top: 30px;
   padding-bottom: 40px;
+  padding-left: 100px;
   .qr-code {
     float: right;
     margin-right: 100px;

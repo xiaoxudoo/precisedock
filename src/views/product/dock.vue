@@ -14,9 +14,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;4、指导合理地优化药物分子结构。
         </p>
         <div class="centered">         
-            <img style="width: 50%;margin-bottom: 120px;" src="../../assets/images/dock.png" />
-        </div>
-        
+            <img style="width: 50%;margin-bottom: 120px;" src="../../assets/images/dock.jpg" />
+        </div> 
     </div>
 </template>
 

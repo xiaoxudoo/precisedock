@@ -17,7 +17,6 @@
             <img style="width: 40%;margin-bottom: 100px;" src="../../assets/images/university07.png" />
             <img style="width: 40%;margin-bottom: 100px;" src="../../assets/images/university08.png" />
         </div>
-        
     </div>
 </template>
 

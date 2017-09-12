@@ -9,7 +9,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;药效团是一种与生物活性相关的抽象分子特征的表示方法。这些抽象分子特征包括三维的（亲疏水性基团、带电/可离子化基团、氢键供体/受体等），二维的（子结构）和一维的（物化和生物性质）。一个三维的药效团模型给出了这些药效基团之间的特定三维排列方式。利用一系列结构和生物活性具有一定差别的化合物数据集构建一、二和三维药效团模型，这些模型可用于药效团筛选。
         </p>
         <div class="centered">         
-            <img style="width: 60%;margin-bottom: 120px;" src="../../assets/images/pharmacophore.png" />
+            <img style="width: 60%;margin-bottom: 120px;" src="../../assets/images/pharm.jpg" />
         </div>
     </div>
 </template>

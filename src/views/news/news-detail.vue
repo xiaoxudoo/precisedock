@@ -9,7 +9,7 @@
             </div>
             <div class="row-fluid subnavigator">
                 <div class="container">
-                    <router-link to="/">首页</router-link> > 新闻资讯
+                    <router-link to="/">首页</router-link> > <router-link to="/news">新闻资讯</router-link>
                 </div>
             </div>
             <div class="row-fluid subody">

@@ -75,7 +75,7 @@ p.left {
 	p {
 		text-indent: 20px;
 		text-align: left;
-		font-size: 24px;
+		font-size: 18px;
 		color: #000;
 		opacity: 0.6;
 		font-family: 'MicroSoft Yahei';

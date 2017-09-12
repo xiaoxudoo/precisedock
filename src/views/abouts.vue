@@ -105,6 +105,9 @@ module.exports = {
                     opacity: 0.9;
                 }
             }
+            li:hover{
+                background: #000;
+            }
         }
     }
 }
