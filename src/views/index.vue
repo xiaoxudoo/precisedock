@@ -329,7 +329,7 @@ nav.navbar {
 			width: 100%;
 			transition: all 1.0s;
 		}
-		&:hover {
+		&.thumbnail-item:hover {
 			p {
 				color: #00b7ee;
 			}
